@@ -1,0 +1,22 @@
+{
+    "name": "kasperhendriks/phpstan-example",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kasper Hendriks",
+            "email": "kasperhendriks@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^13.0"
+    },
+    "require": {
+        "php": "^8.4"
+    }
+}
